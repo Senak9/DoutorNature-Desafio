@@ -1,2 +1,285 @@
-* {
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.container-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg-blue {
+  background-color: #3b4157;
+}
+
+.bg-gray {
+  background-color: #f5f5f5;
+}
+
+span {
+  color: #484b57;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #484b57;
+  font-weight: bold;
+}
+
+h2 {
+  color: #ff594e;
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #484b57;
+}
+
+.navbar {
+  width: 100vw;
+}
+
+.video {
+  background-image: url("./asset/background-desktop.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 54rem;
+}
+
+.video h1 {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+.video p {
+  background-color: #20ac4c;
+  padding: 5px;
+  display: inline;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+}
+
+.about,
+.promo,
+.warranty,
+.list {
+  height: 54rem;
+}
+
+.about img {
+  position: relative;
+  top: -8.2rem;
+  left: -4rem;
+  size: 50%;
+  height: 43.7rem;
+  width: 29.1rem;
+}
+
+.promo .col-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-group {
+  justify-content: center;
+  align-items: center;
+}
+
+.promo img {
+  height: 19px;
+  width: 15px;
+}
+
+.promo h1 {
+  background-image: url("./asset/mark.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 18.5rem;
+  font-size: 2rem;
+  color: white;
+  margin-top: 4rem;
+}
+
+.promo h2 {
+  font-size: 3rem;
+  color: white;
+}
+
+.promo p {
+  font-size: 1rem;
+}
+
+.promo .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 33rem;
+  width: 27rem;
+  border-radius: 1.2rem !important;
+  margin-top: 2rem;
+}
+
+.promo .cardLeft {
+  height: 28rem;
+
+  align-items: center;
+}
+.promo .check-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.promo .check-icon {
+  margin-top: 2rem;
+  background-color: #e5e7e7;
+  padding: 1.5rem;
+}
+
+.box-group {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.card-box {
+  background-color: #e6e7e7;
+  height: 5rem;
+  width: 6rem;
+  border-radius: 0.2rem !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-box p {
+  font-weight: bolder;
+  font-size: 1rem;
+  color: #a9aaaa;
+}
+
+.card-box span {
+  font-weight: bolder;
+  font-size: 2rem;
+  color: #a9aaaa;
+}
+
+.green {
+  background-color: #20ac4c;
+  color: white;
+}
+
+.green p {
+  color: white;
+}
+
+.green span {
+  color: white;
+}
+
+.warranty-promo p {
+  font-size: 1rem;
+}
+
+.results p {
+  font-size: 1rem;
+}
+
+.promo .card-header {
+  background-color: #606160;
+  color: white;
+  border-radius: 1.2rem !important;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card .color-c {
+  color: #484b57;
+  font-size: 2rem;
+}
+
+.card .color-g {
+  color: #20ac4c;
+  font-size: 1.2rem;
+}
+
+.card button {
+  border: none;
+  width: 18rem;
+  height: 3rem;
+  border-radius: 2rem !important;
+  background-color: #ff5d4f;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.bg-gray p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.warranty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.warranty-bg {
+  border-radius: 1.2rem;
+}
+
+.warranty-bg .card {
+  border: none;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.list h1 {
+  margin-top: 2rem;
+  color: white;
+}
+
+.list ul {
+  margin-top: 2rem;
+}
+.list li {
+  color: white;
+  list-style: none;
+  font-size: 1.2rem;
+  border-bottom: 1px solid white;
+  margin-bottom: 2rem;
+}
+.list span {
+  color: #ff5d4f;
+}
+
+.img-badge {
+  height: 74px !important;
+  width: 86px !important;
+  left: 408px;
+  top: -513px;
+  position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .video {
+    background-image: url("./asset/background-mobile.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+  }
 }
